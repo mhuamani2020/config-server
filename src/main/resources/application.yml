@@ -8,5 +8,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/mhuamani2020/bank-config-repo.git # Cambia esto por tu repo
+          uri: https://github.com/mhuamani2020/bank-config-repo.git
           default-label: main
