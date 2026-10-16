@@ -18,13 +18,13 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @SpringBootApplication
 public class ConfigServerApplication {
 
-	/**
-	 * Punto de entrada de la aplicación Spring Boot.
-	 *
-	 * @param args argumentos de línea de comandos proporcionados al arrancar
-	 */
-	public static void main(String[] args) {
-		SpringApplication.run(ConfigServerApplication.class, args);
-	}
+    /**
+     * Punto de entrada de la aplicación Spring Boot.
+     *
+     * @param args argumentos de línea de comandos proporcionados al arrancar
+     */
+    public static void main(String[] args) {
+        SpringApplication.run(ConfigServerApplication.class, args);
+    }
 
 }
